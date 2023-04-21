@@ -58,3 +58,7 @@ def getvalue():
 
 if __name__ == '__main__':
     app.run(debug=False)
+
+
+# deply ec2 > then use docker for ngnix and flask > 
+# push code to git > ec2 > clone > then docker >
